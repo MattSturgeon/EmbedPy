@@ -104,9 +104,9 @@ def main():
 		sys.exit(1);
 	
 	if (args.c):
-		print ('Writing C file into %s\n' % args.outFileName);
+		print ('Writing files into C header \'%s\'\n' % args.outFileName);
 	else:
-		print ('Writing into %s\n' % args.outFileName);
+		print ('Writing into \'%s\'\n' % args.outFileName);
 	
 
 	with open(args.outFileName, 'w') as outfile:
